@@ -1,0 +1,48 @@
+*{ margin:0; padding:0; font-family:"方正中等线简体" "微软雅黑";}
+#header{ width:940px; height:100px; margin:0 auto; position:relative; border-bottom:1px #dadada solid;}
+#logo{ position:absolute; top:26px; left:0;}
+#searchBox{  width:200px; height:33px; position:absolute; top:50px; right:0px;}
+#searchText{ border:0; height:33px; background:url(images/search_box_bg.png) no-repeat; color:#737373; font-size:14px; line-height:33px; width:200px; outline:none; padding-left:10px;}
+#searchBtn{ border:0; background:url(images/search_btn.png) no-repeat; width:27px; height:28px; position:absolute; top:3px; right:16px; cursor:pointer; outline:none;}
+
+#nav{ width:940px; margin:0 auto;}
+#nav ul{ list-style:none;}
+#nav ul li{ float:left; padding:10px 20px;}
+#nav ul li a{ text-decoration:none; color:#737373; font-size:18px;}
+#nav ul li a:hover{ color:#2ecc71;}
+#nav ul span li a{ color:#2ecc71;}
+
+#main{ position:relative; margin-top:40px;}
+#mainImg{ border:0; width:100%;}
+#intro{ width:1000px; margin:0 auto; background:#FFF;}
+#introImg{ float:left; margin:70px 0 0 70px; padding-bottom:50px;}
+#intro span{ float:left; padding:70px 20px 0 0; margin-bottom:40px; height:200px; width:500px; position:relative;}
+#intro span p{ color:#7d7d7d; font-size:18px; line-height:30px; text-align:center;  }
+#intro span a{ display:block; width:80px; background:#2ecc71; color:#FFF; text-decoration:none; padding:20px 50px; font-size:20px;  position:absolute; bottom:0; right:200px;}
+#intro span a:hover{ background:#009e43;}
+#learn{ clear:both; background:#efefef; width:100%; }
+.divTitle{ font-size:30px; text-align:center; padding-top:30px; color:#3d3d3d;}
+#learnBox{ width:1000px; margin:0 auto; padding-top:30px}
+#learnBox ul{ list-style:none;}
+#learnBox ul li{ float:left; margin:0 10px; width:180px;}
+#learnBox ul li a{ display:block; text-decoration:none;}
+#learnBox ul li a p{ width:180px; line-height:22px; margin-top:20px;}
+#learn #learnBox ul li a{  text-align:center; padding-top:30px; display:block; text-decoration:none; color:#727272; transition: padding-top 150ms;-moz-transition: padding-top 150ms;-webkit-transition: padding-top 150ms; -o-transition: padding-top 150ms; }
+#learn #learnBox ul li a:hover{ padding-top:10px;}
+.more a{ clear:both; text-align:center;  padding-top:35px; display:block; text-decoration:none; color:#727272; padding-bottom:15px;}
+.more a:hover{ color:#2ecc71;}
+#show{ width:100%; background:#FFF;}
+#carousel { margin:40px 0; list-style:none;}
+#carousel li { text-align: center; width: 230px; height: 200px; float: left;position: relative;}
+#carousel li img { border: none;}
+#carousel li span { display: none;}
+
+#footer{ width:100%; height:150px; background:#272727; border-bottom:30px #191919 solid;}
+#footerContent{ width:880px; margin:0 auto; padding-top:20px; position:relative;}
+#footer ul{ list-style:none;}
+#footer ul li{ float:left; width:220px; color:#7f7f7f; font-size:18px;}
+#footer ul li ul{ margin-top:10px;}
+#footer ul li ul li{ float:none;}
+#footer ul li ul li a{color:#7f7f7f; font-size:14px; text-decoration:none; line-height:20px;}
+#footer ul li ul li a:hover{ color:#d2d2d2;}
+#footerContent p{ position:absolute; top:160px; left:50%; margin-left:-152px; color:#6e6e6e; font-size:12px;}
